@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure your API key (replace with your actual API key)
-genai.configure(api_key="AIzaSyCBtKi6vLkzL61Z1biwsUXF-d3rk_Ca8lE")
+genai.configure(api_key="YOUR_API")
 
 def generate_response(model_name, prompt, temperature):
   """Generates a response from Gemini."""
